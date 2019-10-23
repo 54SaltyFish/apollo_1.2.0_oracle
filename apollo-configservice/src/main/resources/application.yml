@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: apollo-configservice
+  profiles:
+    active: ${apollo_profile}
+
+ctrip:
+  appid: 100003171
+  
+server:
+  port: 9080
+
+logging:
+  file: D:/Test/log/configservice/apollo-configservice.log
